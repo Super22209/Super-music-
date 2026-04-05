@@ -1,0 +1,35 @@
+# Melodia PWA — Cara Deploy
+
+## Upload ke Netlify (gratis, 2 menit)
+
+1. Buka https://app.netlify.com/drop
+2. Pilih SEMUA file dalam folder ini (index.html, sw.js, manifest.json, icon.svg, netlify.toml)
+3. Seret semua file ke halaman Netlify Drop
+4. Tunggu upload selesai → kamu dapat link seperti https://amazing-name-123.netlify.app
+5. Buka link itu di Chrome HP kamu
+
+## Install ke HP (setelah dapat link HTTPS)
+
+### Android (Chrome):
+- Buka link di Chrome
+- Tap menu ⋮ → "Tambahkan ke layar utama" / "Install app"
+- Setelah install, buka dari icon di layar utama
+- Musik OFFLINE + notifikasi lock screen langsung aktif!
+
+### iPhone (Safari):
+- Buka link di Safari
+- Tap tombol Share (kotak dengan panah)
+- Pilih "Tambah ke Layar Utama"
+
+## Setelah Install
+- ✅ Bisa dipakai tanpa internet (offline penuh)
+- ✅ Notifikasi & kontrol di lock screen
+- ✅ Musik tetap ada meski tutup browser
+- ✅ Tampak seperti aplikasi native
+
+## File dalam folder ini
+- index.html   → Aplikasi utama Melodia
+- sw.js        → Service Worker (offline cache)
+- manifest.json → Info PWA (nama, icon, warna)
+- icon.svg     → Icon aplikasi
+- netlify.toml → Konfigurasi Netlify
